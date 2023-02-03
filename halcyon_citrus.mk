@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2023 The Halcyon Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/chime/device-citrus.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/halcyon/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_citrus
+PRODUCT_NAME := halcyon_citrus
 PRODUCT_DEVICE := citrus
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO M3
