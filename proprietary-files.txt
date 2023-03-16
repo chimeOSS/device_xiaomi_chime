@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from miui_LIMEGlobal_V12.5.11.0.RJQMIXM
+# All blobs from Borneo are extracted from borneo_retail-user 11 RZBS31.Q2-143-27-22 46674 release-keys
 
 # ACDB
 vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Bluetooth_cal.acdb
@@ -685,7 +686,7 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# Media
+# Media - From Borneo 
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
@@ -694,35 +695,29 @@ vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
-# Media OMX
+# Media OMX - From Borneo 
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libMpeg4SwEncoder.so
 vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxAacEnc.so
 vendor/lib/libOmxAlacDec.so
 vendor/lib/libOmxAlacDecSw.so
 vendor/lib/libOmxAmrDec.so
-vendor/lib/libOmxAmrEnc.so
 vendor/lib/libOmxAmrwbplusDec.so
 vendor/lib/libOmxApeDec.so
 vendor/lib/libOmxApeDecSw.so
 vendor/lib/libOmxCore.so
 vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
-vendor/lib/libOmxEvrcEnc.so
 vendor/lib/libOmxG711Dec.so
-vendor/lib/libOmxG711Enc.so
 vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxQcelp13Enc.so
 vendor/lib/libOmxSwVdec.so
 vendor/lib/libOmxSwVencMpeg4.so
 vendor/lib/libOmxVdec.so
 vendor/lib/libOmxVenc.so
-vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libdsd2pcm.so
 vendor/lib/libswvdec.so
@@ -731,22 +726,17 @@ vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libMpeg4SwEncoder.so
 vendor/lib64/libOmxAacDec.so
-vendor/lib64/libOmxAacEnc.so
 vendor/lib64/libOmxAlacDec.so
 vendor/lib64/libOmxAlacDecSw.so
 vendor/lib64/libOmxAmrDec.so
-vendor/lib64/libOmxAmrEnc.so
 vendor/lib64/libOmxAmrwbplusDec.so
 vendor/lib64/libOmxApeDec.so
 vendor/lib64/libOmxApeDecSw.so
 vendor/lib64/libOmxCore.so
 vendor/lib64/libOmxEvrcDec.so
-vendor/lib64/libOmxEvrcEnc.so
 vendor/lib64/libOmxG711Dec.so
-vendor/lib64/libOmxG711Enc.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxQcelp13Enc.so
 vendor/lib64/libOmxSwVdec.so
 vendor/lib64/libOmxSwVencMpeg4.so
 vendor/lib64/libOmxVdec.so
